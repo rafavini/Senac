@@ -120,6 +120,9 @@ form.addEventListener("submit", function (e) {
             usuarioSenha: password.value
         }
         console.log(dados)
+
+        //muda de pagina para home
+        window.location.href = "./pages/home.html"
     }
 
 
