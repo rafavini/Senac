@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [usuarios, setUsuarios] = useState()
+  const [usuarios, setUsuarios] = useState([])
   async function getUsers(){
     const response = await fetch('/api/users');
       const dados = await response.json();
